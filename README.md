@@ -8,8 +8,5 @@ Skills: Algorithms / Linux / Python / C
 - I’m currently learning algorithm optimization and Pytorch. 
 - I’m looking to collaborate on computer vision and network science projects. 
 - I’m looking for help with the Chinese language. 
-- How to reach me: LinkedIn. 
-
-
-[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/https://www.linkedin.com/in/tokudaek//)  
+- How to reach me: [LinkedIn](https://www.linkedin.com/in/https://www.linkedin.com/in/tokudaek/ "LinkedIn")  
 
