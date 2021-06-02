@@ -1,8 +1,6 @@
-### Hi there, my name is Eric
-#### I am a machine learning/data science enthusiastic
-![I am a machine learning/data science enthusiastic](https://github.com/ericktokuda/ericktokuda/blob/main/img/banner_cvpr_bw.jpg)
+![I am a machine learning/data science enthusiastic](https://github.com/ericktokuda/ericktokuda/blob/main/img/banner_passionate_bw.jpg)
 
-I made this project just for fun, it allows you to create nice and simple GitHub Readme files that you can copy/paste and use in your profile.
+#### I am a machine learning/data science enthusiastic actively looking for new challenges
 
 Skills: Algorithms / Linux / Python / C
 
