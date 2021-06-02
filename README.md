@@ -10,3 +10,5 @@ Skills: Algorithms / Linux / Python / C
 - I’m looking for help with the Chinese language. 
 - How to reach me: [LinkedIn](https://www.linkedin.com/in/https://www.linkedin.com/in/tokudaek/ "LinkedIn")  
 
+---
+Some of my projects:
