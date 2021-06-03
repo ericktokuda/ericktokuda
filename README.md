@@ -16,7 +16,7 @@ Skills: Algorithms / Linux / Python / C
 ---
 2021
 
-![Missing image](/images/greendiff_animation.gif)
+![Missing image](https://github.com/ericktokuda/ericktokuda/raw/main/img/greendiff_animation.gif)
 
 This work is motivated by the expansion of the constructions over the green regions in a city. I identify the identify the constructed areas (non-green) using satellite images and simulate the isotropic diffusion of these regions. The constructed regions are identified using a DL-based semantic segmentation method. The output is a binary mask with the same of the input image. Starting from the binary mask, I evaluate successive convolutions with a mean kernel and at each step I restore the original constructed regions to the maximum value, 1. This modification of the regular diffusion is motivated by the scenario where the constructions are not destroyed but just expanded. The same procedure is performed on six brazilian cities and the impact of the destruction of green areas can be studied. The opposite can also be studied, i.e., the expansion of the green regions over the constructed areas.
 
@@ -30,7 +30,7 @@ This work has been carried out in collaboration with my colleagues from USP and 
 
 The mathematical modelling of infectious diseases is an important piece in the epidemiology field. It allows one to study in principle an infinite number of epidemic scenarios in a safe way for the population. The Scottish researchers A. G. McKendrick and W. O. Kermack published in the 30's the foundation stone of the compartimental models research. They proposed a set of differential equations that allowed one to mathematically define the transmission stage, by determining the number of Succeptibles, Infected and Recovered. That gave risen to the famous SIR model, which is widely studied and extended in the current days.
 
-{{< figure src="/images/epidmodel_animation.gif" alt="Missing image." position="center" style="border-radius: 4px;" caption="Epidemic model (SIR) simulation.">}}
+![Missing image](https://github.com/ericktokuda/ericktokuda/raw/main/img/epidmodel_animation.gif)
 
 Different from the homogeneous distibution of individuals, *metapopulation models* assume the existence of conglomerates of individuals, the populations, such that the transmission process occurr just inside the populations, i.e., among individuals in the same population and inviduals are allowed to move from one population to the other.
 
