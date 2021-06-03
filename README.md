@@ -1,5 +1,7 @@
 <p align="center">
+<a href="https://github.com/ericktokuda/">
 <img src="https://github.com/ericktokuda/ericktokuda/blob/main/img/banner_github2.png">
+</a>
 </p>
 
 ### Passionate about algorithms
@@ -17,9 +19,7 @@ Skills: Algorithms / Linux / Python / C
 
 ---
 
-<p align="center">
 <img src="https://github.com/ericktokuda/ericktokuda/raw/main/img/greendiff_animation.gif" title="Diffusion of the green regions" width="500">
-</p>
 
 [2021] This work is motivated by the expansion of the constructions over the green regions in a city. I identify the identify the constructed areas (non-green) using satellite images and simulate the isotropic diffusion of these regions. The constructed regions are identified using a DL-based semantic segmentation method. The output is a binary mask with the same of the input image. Starting from the binary mask, I evaluate successive convolutions with a mean kernel and at each step I restore the original constructed regions to the maximum value, 1. This modification of the regular diffusion is motivated by the scenario where the constructions are not destroyed but just expanded. The same procedure is performed on six brazilian cities and the impact of the destruction of green areas can be studied. The opposite can also be studied, i.e., the expansion of the green regions over the constructed areas.
 
