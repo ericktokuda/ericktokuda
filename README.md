@@ -14,23 +14,18 @@ Skills: Algorithms / Linux / Python / C
 #### Some of my projects:
 
 ---
-2021
 
- <img src="https://github.com/ericktokuda/ericktokuda/raw/main/img/greendiff_animation.gif" alt="Diffusion of the green regions" width="500">
+<p align="center">
+<img src="https://github.com/ericktokuda/ericktokuda/raw/main/img/greendiff_animation.gif" alt="Diffusion of the green regions" width="500">
+</p>
 
-![Missing image](https://github.com/ericktokuda/ericktokuda/raw/main/img/greendiff_animation.gif)
+[2021] This work is motivated by the expansion of the constructions over the green regions in a city. I identify the identify the constructed areas (non-green) using satellite images and simulate the isotropic diffusion of these regions. The constructed regions are identified using a DL-based semantic segmentation method. The output is a binary mask with the same of the input image. Starting from the binary mask, I evaluate successive convolutions with a mean kernel and at each step I restore the original constructed regions to the maximum value, 1. This modification of the regular diffusion is motivated by the scenario where the constructions are not destroyed but just expanded. The same procedure is performed on six brazilian cities and the impact of the destruction of green areas can be studied. The opposite can also be studied, i.e., the expansion of the green regions over the constructed areas.
 
-This work is motivated by the expansion of the constructions over the green regions in a city. I identify the identify the constructed areas (non-green) using satellite images and simulate the isotropic diffusion of these regions. The constructed regions are identified using a DL-based semantic segmentation method. The output is a binary mask with the same of the input image. Starting from the binary mask, I evaluate successive convolutions with a mean kernel and at each step I restore the original constructed regions to the maximum value, 1. This modification of the regular diffusion is motivated by the scenario where the constructions are not destroyed but just expanded. The same procedure is performed on six brazilian cities and the impact of the destruction of green areas can be studied. The opposite can also be studied, i.e., the expansion of the green regions over the constructed areas.
-
-
-The source code is available at [Github](https://github.com/tokudaek/citydiffusion).
-
-This work has been carried out in collaboration with my colleagues from USP and from UFSCAR, FAS Shibata, HF Arruda, GS Domingues, CH Comin, LF Costa, RM Cesar-Jr.
+This work has been carried out in collaboration with my colleagues FASS, HFA, GSD, CHC, LFC, RMCJ. You can check more details [here](https://arxiv.org/abs/2103.11998) and the source code [here](https://github.com/tokudaek/citydiffusion).
 
 ---
-2020
 
-The mathematical modelling of infectious diseases is an important piece in the epidemiology field. It allows one to study in principle an infinite number of epidemic scenarios in a safe way for the population. The Scottish researchers A. G. McKendrick and W. O. Kermack published in the 30's the foundation stone of the compartimental models research. They proposed a set of differential equations that allowed one to mathematically define the transmission stage, by determining the number of Succeptibles, Infected and Recovered. That gave risen to the famous SIR model, which is widely studied and extended in the current days.
+[2020] The mathematical modelling of infectious diseases is an important piece in the epidemiology field. It allows one to study in principle an infinite number of epidemic scenarios in a safe way for the population. The Scottish researchers A. G. McKendrick and W. O. Kermack published in the 30's the foundation stone of the compartimental models research. They proposed a set of differential equations that allowed one to mathematically define the transmission stage, by determining the number of Succeptibles, Infected and Recovered. That gave risen to the famous SIR model, which is widely studied and extended in the current days.
 
 ![Missing image](https://github.com/ericktokuda/ericktokuda/raw/main/img/epidmodel_animation.gif)
 
@@ -38,7 +33,7 @@ Different from the homogeneous distibution of individuals, *metapopulation model
 
 This scenario can be modeled by a graph using an ABM model, with populations represented by vertices and agents that *are* in a particular vertex at a particular time. Agents are allowed to move among vertices, but just agents at the same vertex may transmit or be infected. Additionaly, assume that these vertices are placed over a vector field with local minima and maxima of *attraction*. Agents move stochastically according to the vector field. How would the dynamics of the disease would change in such a scenario? That is que question that drives this research.
 
-The bulk of the code in Python. Given the large number of repetitions required by this kind of project, key parts of the code have been ported to C (Cython). The source code is available at [Github ](https://github.com/tokudaek/epidspread).
+The bulk of the code in Python. Given the large number of repetitions required by this kind of project, key parts of the code have been ported to C (Cython). The source code is available [here](https://github.com/tokudaek/epidspread).
 
 This work has been done in collaboration with my colleagues from USP, FA Rodrigues, LF Costa and PCV Silva.
 
@@ -57,7 +52,7 @@ In this project, I analyze classical hierarchical clustering algorithms, namely 
 
 The results showed that the single-linkage, often seen as a method leading to unreliable results due to the chaining effect, lead to one of the best results considering the error typeII.
 
-The source code is available at [Github](https://github.com/tokudaek/hieclust).
+The source code is available [here](https://github.com/tokudaek/hieclust).
 
 This work has been produced in collaboration with my colleagues from USP and from UFSCAR, namely LF Costa and CH Comin.
 
@@ -76,7 +71,7 @@ I used the Mask-RCNN pretrained on Image NET and finetuned in our data to segmen
 
 The results was used to create a map of tagging occurences in the analyzed city. I we recall the Broken Window theory, the tagging distribution can be used as an indicator of other features of the city. I matched the results with a socioeconomical indicator, the HDI and resulted in a resonably well correlation.
 
-The source code is available at [Github](https://github.com/tokudaek/Mask_RCNN).
+The source code is available [here](https://github.com/tokudaek/Mask_RCNN).
 
 
 This work has been produced in collaboration with my colleagues from NYU and from USP, CT Silva and RM Cesar-Jr. I also supervised, with RM Cesar-Jr, an graduate final work from USP from FS Silva.
@@ -130,7 +125,7 @@ In this project, we study how the rain affects the object detection task. We con
 
 We tested different deraining methods and subsequently applied state-of-the-art object detection approaches. The results were counter-intuitive, despite deraining methods may improve the visual appearance of the images, it does not consistently improve the posterior object detection task.
 
-The source code is available at [Github](https://github.com/lsy17096535/Single-Image-Deraining).
+The source code is available [here](https://github.com/lsy17096535/Single-Image-Deraining).
 
 This work has been done in collaboration with my colleagues from Texas A\&M, the Chinese Academy of Sciences and from USP, S Li, IB Araujo, W Ren, Z Wang, R Hirata-Jr, R Cesar-Jr, J Zhang, X Guo, and X Cao.
 
@@ -145,7 +140,7 @@ In this one day and a half hackaton, we built an application that automatically 
 
 Our project, called BYTEOVER2 won the Twilio hack at the  [Global AI NYC 2017](https://devpost.com/software/byteover2/). In it, [Twilio](https://www.twilio.com/docs/sms/quickstart/python#set-up-a-twilio-messaging-service) is used as a front end interface to users, capturing both SMS and voice communication which is passed to a Flask backend running on Amazon EC2. The backend server is responsible for querying Microsoft Azure for speech to text and sentiment analysis, and implements logic for selecting the appropriate text response or mixing the appropriate music with the user's recorded voice according to their emotional valence. Twilio is again used to serve the [text](https://www.twilio.com/docs/sms/quickstart/python#set-up-a-twilio-messaging-service) / [audio](https://azure.microsoft.com/en-us/services/cognitive-services/speech-services/) back to the user. All operation occur synchronously.
 
-The source code is available at [Github](https://github.com/chuckyee/byteover2).
+The source code is available [here](https://github.com/chuckyee/byteover2).
 
 {{< figure src="/images/cloudserv_byteover2.jpg" alt="Missing image." position="center" style="border-radius: 8px;" caption="Our winner project, byteover2.">}}
 
@@ -200,7 +195,7 @@ I also proposed my own method, based on ensemble of classifiers. Take a look at 
 
 {{< figure src="/images/forensics_roc.png" alt="Missing image." position="center" style="border-radius: 8px;" caption="ROC curve of all methods.">}}
 
-I learned multiple things along the way, such as related to algorithms, Expectation Maximization ([EM](https://en.wikipedia.org/wiki/Expectation%E2%80%93maximization_algorithm)), pattern recognition, classifier performance analysis and ensemble of classifiers. Also, I used multiple tools in this projects, including Matlab, Perl, and R. This project was developed in collaboration with my colleagues from [Unicamp](https://www.unicamp.br/unicamp/english), [H Pedrini](https://ic.unicamp.br/docente/helio-pedrini/) and [A Rocha](https://www.ic.unicamp.br/~rocha/). The source code is available at [Github](https://github.com/tokudaek/cgvspg).
+I learned multiple things along the way, such as related to algorithms, Expectation Maximization ([EM](https://en.wikipedia.org/wiki/Expectation%E2%80%93maximization_algorithm)), pattern recognition, classifier performance analysis and ensemble of classifiers. Also, I used multiple tools in this projects, including Matlab, Perl, and R. This project was developed in collaboration with my colleagues from [Unicamp](https://www.unicamp.br/unicamp/english), [H Pedrini](https://ic.unicamp.br/docente/helio-pedrini/) and [A Rocha](https://www.ic.unicamp.br/~rocha/). The source code is available [here](https://github.com/tokudaek/cgvspg).
 
 ---
 2009
@@ -233,5 +228,5 @@ The code is far from following all the good rules of programming, given that we 
 
 {{< figure src="/images/game_animation.gif" alt="Missing image." position="center" style="border-radius: 8px;" caption="Gameplay of the game.">}}
 
-The result can be seen above. I know, it is not quite the same as the original, but we can definitely have some fun with it. The source code is available in [Github](https://github.com/tokudaek/spaceinvaders).
+The result can be seen above. I know, it is not quite the same as the original, but we can definitely have some fun with it. The source code is available [here](https://github.com/tokudaek/spaceinvaders).
 
