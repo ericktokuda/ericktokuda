@@ -19,44 +19,28 @@ Skills: Algorithms / Linux / Python / C
 
 ---
 
+<a href="https://github.com/tokudaek/citydiffusion">
 <img src="https://github.com/ericktokuda/ericktokuda/raw/main/img/greendiff_animation.gif" title="Diffusion of the green regions" width="500">
+</a>
 
-[2021] This work is motivated by the expansion of the constructions over the green regions in a city. I identify the identify the constructed areas (non-green) using satellite images and simulate the isotropic diffusion of these regions. The constructed regions are identified using a DL-based semantic segmentation method. The output is a binary mask with the same of the input image. Starting from the binary mask, I evaluate successive convolutions with a mean kernel and at each step I restore the original constructed regions to the maximum value, 1. This modification of the regular diffusion is motivated by the scenario where the constructions are not destroyed but just expanded. The same procedure is performed on six brazilian cities and the impact of the destruction of green areas can be studied. The opposite can also be studied, i.e., the expansion of the green regions over the constructed areas.
+[2021] This work is motivated by the expansion of the constructions over the green regions in a city. I identify the identify the constructed areas (non-green) using satellite images and simulate the isotropic diffusion of these regions. The constructed regions are identified using a DL-based semantic segmentation method. The output is a binary mask with the same of the input image. Starting from the binary mask, I evaluate successive convolutions with a mean kernel and at each step I restore the original constructed regions to the maximum value, 1. This modification of the regular diffusion is motivated by the scenario where the constructions are not destroyed but just expanded. The same procedure is performed on six brazilian cities and the impact of the destruction of green areas can be studied. The opposite can also be studied, i.e., the expansion of the green regions over the constructed areas. This work has been carried out in collaboration with my colleagues FASS, HFA, GSD, CHC, LFC, RMCJ. If you want more details, please refer to [here](https://arxiv.org/abs/2103.11998).
 
-This work has been carried out in collaboration with my colleagues FASS, HFA, GSD, CHC, LFC, RMCJ. You can check more details [here](https://arxiv.org/abs/2103.11998) and the source code [here](https://github.com/tokudaek/citydiffusion).
+---
+
+<a href="https://github.com/tokudaek/epidspread/">
+<img src="https://github.com/ericktokuda/ericktokuda/raw/main/img/epidmodel_animation.gif" title="Diffusion of the green regions" width="500">
+</a>
+
+[2020] The mathematical modelling of infectious diseases is an important piece in the epidemiology field. It allows one to study in principle an infinite number of epidemic scenarios in a safe way for the population. The Scottish researchers A. G. McKendrick and W. O. Kermack published in the 30's the foundation stone of the compartimental models research. They proposed a set of differential equations that allowed one to mathematically define the transmission stage, by determining the number of Succeptibles, Infected and Recovered. That gave risen to the famous SIR model, which is widely studied and extended in the current days. In this ABM, agents are allowed to move among vertices, but just agents in the same vertices may transmit or be infected. Additionaly, assume that these vertices are placed over a vector field with local minima and maxima of *attraction*. Agents move stochastically according to the vector field. How would the dynamics of the disease would change in such a scenario? That is que question that drives this research. This work has been done in collaboration with my colleagues from USP, PCV Silva, FA Rodrigues, and LF Costa. Code is mostly in Python, with critical parts ported to C (Cython).
 
 ---
 
-[2020] The mathematical modelling of infectious diseases is an important piece in the epidemiology field. It allows one to study in principle an infinite number of epidemic scenarios in a safe way for the population. The Scottish researchers A. G. McKendrick and W. O. Kermack published in the 30's the foundation stone of the compartimental models research. They proposed a set of differential equations that allowed one to mathematically define the transmission stage, by determining the number of Succeptibles, Infected and Recovered. That gave risen to the famous SIR model, which is widely studied and extended in the current days.
+<a href="https://github.com/tokudaek/hieclust">
+<img src="https://github.com/ericktokuda/ericktokuda/raw/main/img/hieclust_teaser_gra.png" title="Multiple distributions" width="500">
+</a>
 
-![Missing image](https://github.com/ericktokuda/ericktokuda/raw/main/img/epidmodel_animation.gif)
+[2020] Hierarchical clustering differ from regular clustering by providing the a hierarchy (order) in which the clusters are formed. It allows for instance that that the cut of groups be defined a posteriori.  In this project, I analyze classical hierarchical clustering algorithms, namely single, average, median, complete, centroid, and Ward's, with respect to the Type II error (false positives) in the problem of trying to separate unimodal and bimodal distributions. I created a synthetic dataset for this task, with points following uniform, gaussian, exponential and power-law distributions in 2d, 3d, ... , 10d.  The results showed that the single-linkage, often seen as a method leading to unreliable results due to the chaining effect, lead to one of the best results considering the error typeII. Thanks to my colleagues from USP and from UFSCAR, LF Costa and CH Comin.
 
-Different from the homogeneous distibution of individuals, *metapopulation models* assume the existence of conglomerates of individuals, the populations, such that the transmission process occurr just inside the populations, i.e., among individuals in the same population and inviduals are allowed to move from one population to the other.
-
-This scenario can be modeled by a graph using an ABM model, with populations represented by vertices and agents that *are* in a particular vertex at a particular time. Agents are allowed to move among vertices, but just agents at the same vertex may transmit or be infected. Additionaly, assume that these vertices are placed over a vector field with local minima and maxima of *attraction*. Agents move stochastically according to the vector field. How would the dynamics of the disease would change in such a scenario? That is que question that drives this research.
-
-The bulk of the code in Python. Given the large number of repetitions required by this kind of project, key parts of the code have been ported to C (Cython). The source code is available [here](https://github.com/tokudaek/epidspread).
-
-This work has been done in collaboration with my colleagues from USP, FA Rodrigues, LF Costa and PCV Silva.
-
----
-2020
-
-{{< figure src="/images/hieclust_bimodal.png" alt="Missing image." position="center" style="border-radius: 8px;" caption="Clusterization based on density.">}}
-
-
-Hierarchical clustering differ from regular clustering by providing the a hierarchy (order) in which the clusters are formed. It allows for instance that that the cut of groups be defined a posteriori.
-
-
-In this project, I analyze classical hierarchical clustering algorithms, namely single, average, median, complete, centroid, and Ward's, with respect to the Type II error (false positives) in the problem of trying to separate unimodal and bimodal distributions. I created a synthetic dataset for this task, with points following uniform, gaussian, exponential and power-law distributions in 2d, 3d, ... , 10d.
-
-{{< figure src="/images/hieclust_dendrogram.png" alt="Missing image." position="center" style="border-radius: 8px;" caption="On the right, a hierarchical clustering of the points on the left.">}}
-
-The results showed that the single-linkage, often seen as a method leading to unreliable results due to the chaining effect, lead to one of the best results considering the error typeII.
-
-The source code is available [here](https://github.com/tokudaek/hieclust).
-
-This work has been produced in collaboration with my colleagues from USP and from UFSCAR, namely LF Costa and CH Comin.
 
 ---
 2019
