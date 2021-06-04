@@ -61,7 +61,7 @@ Skills: Algorithms / Linux / Python / C
 ---
 
 <a href="https://github.com/VIDA-NYU/carmera-modelling">
-<img src="https://github.com/ericktokuda/ericktokuda/raw/main/img/peddens_heatmap420.png" title="Pedestrian detection" width="640">
+<img src="https://github.com/ericktokuda/ericktokuda/raw/main/img/peddens_heatmap420.png" title="Pedestrian detection" width="420">
 </a>
 
 *[2019]*
@@ -71,7 +71,7 @@ The distribution of pedestrians in the city is a valuable information for differ
 
 
 <a href="https://github.com/lsy17096535/Single-Image-Deraining">
-<img src="https://github.com/ericktokuda/ericktokuda/raw/main/img/derain_gmm_idcgan_gray.png" title="De-raining" width="640">
+<img src="https://github.com/ericktokuda/ericktokuda/raw/main/img/derain_gmm_idcgan_gray.jpg" title="De-raining" width="640">
 </a>
 
 *[2018]*
