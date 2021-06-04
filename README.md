@@ -14,10 +14,11 @@ Skills: Algorithms / Linux / Python / C
 - I’m looking for help with the Chinese language. 
 - How to reach me: [LinkedIn](https://www.linkedin.com/in/https://www.linkedin.com/in/tokudaek/ "LinkedIn")  
 
----
-### Some of my projects:
+Here are some of my projects:
 
 ---
+
+### Diffusion of the constructed areas
 
 <a href="https://github.com/tokudaek/citydiffusion">
 <img src="https://github.com/ericktokuda/ericktokuda/raw/main/img/greendiff_animation.gif" title="Diffusion of the green regions" width="640">
@@ -47,6 +48,8 @@ Skills: Algorithms / Linux / Python / C
 
 ---
 
+### Tagging detection
+
 <a href="https://github.com/tokudaek/graffutils/">
 <img src="https://github.com/ericktokuda/ericktokuda/raw/main/img/graffiti_teaser_ind.jpg" title="Tagging detection" width="640">
 </a>
@@ -54,6 +57,8 @@ Skills: Algorithms / Linux / Python / C
 *[2019]* Tagging is present in most big cities and there is no knowledge about where they are primarily concentrated. Manually inspecting the regions with graffiti may be expensive. In this project I estimate the tagging distribution in a region using public images. Important to notice in this work we are not focused on paintings on the walls. For this task I used the Google Street View REST api to acquire the visual data. I concentrated in a city which is known for having lots of occurences of tagging - Sao Paulo, Brazil. I sampled the city region in a grid with four view orientations, which resulted in ~275,000 images. The results was used to create a map of tagging occurences in the analyzed city. I we recall the Broken Window theory, the tagging distribution can be used as an indicator of other features of the city. I matched the results with a socioeconomical indicator, the HDI and resulted in a resonably well correlation. This work has been produced in collaboration with my colleagues from NYU and from USP. I also supervised, with RM Cesar-Jr, a graduate final work from FS Silva.
 
 ---
+
+### Sensor networks
 
 <a href="https://youtu.be/ngihdYfW5Ok">
 <img src="https://github.com/ericktokuda/ericktokuda/raw/main/img/sensornet_youtube.jpg" title="Sensor networks" width="640">
@@ -64,8 +69,10 @@ Skills: Algorithms / Linux / Python / C
 
 ---
 
+### Pedestrian detection
+
 <a href="https://github.com/VIDA-NYU/carmera-modelling">
-<img src="https://github.com/ericktokuda/ericktokuda/raw/main/img/peddens_heatmap420.png" title="Pedestrian detection" width="200">
+<img src="https://github.com/ericktokuda/ericktokuda/raw/main/img/peddens_heatmap420.png" title="Pedestrian detection" width="250">
 </a>
 
 *[2019]*
@@ -73,21 +80,22 @@ The distribution of pedestrians in the city is a valuable information for differ
 
 ---
 
+### *[2018]* De-raining
 
 <a href="https://github.com/lsy17096535/Single-Image-Deraining">
 <img src="https://github.com/ericktokuda/ericktokuda/raw/main/img/derain_gmm_idcgan_gray.jpg" title="De-raining" width="640">
 </a>
 
-*[2018]*
 Weather affects our visual system and as such, it also impacts the imaging sensors. This has a strong implications for the vision systems of autonomous vehicles, for instance. For this reason, the degradation imposed by the weather are heavily studied by the computer vision/graphics community. In this project, we study how the rain affects the object detection task. We consider two scenarios: (a) images with synthetically generated rain and (b) real rain. The advantage of the former is that we can treat the problem as an image restoration task, with a ground-truth. Conversely, the latter exhibit the real changes caused by the rain, and not a simple model of it. We tested different deraining methods and subsequently applied state-of-the-art object detection approaches. The results were counter-intuitive, despite deraining methods may improve the visual appearance of the images, it does not consistently improve the posterior object detection task.  This work has been done in collaboration with my colleagues from U. Austin, from the Chinese Academy of Sciences and from USP.
 
 ---
+
+### Cloud services *[2017]*
 
 <a href="https://devpost.com/software/byteover2/">
 <img src="https://github.com/ericktokuda/ericktokuda/raw/main/img/cloudserv_teaser_red.jpg" title="Cloud services" width="640">
 </a>
 
-*[2017]*
 There is a large variety of cloud services today, spanning the IaaS, PaaS, and SaaS. In this hackaton, we were asked to use cloud services to build a _useful_ web application. Our team was composed of three members: me, Chuck, and Stevens.
 
 In this one day and a half hackaton, we built an application that automatically analyzed your message (in voice or in text) and replyied according to the _sentiment_ of the message left.  The application used Twilio as a communication API; MS Azure cognitive services, to identify the mood of the SMS or the audio message; and a flask web server. The programming language of choice was python.
@@ -96,12 +104,13 @@ Our project, called BYTEOVER2 won the Twilio hack at the  [Global AI NYC 2017](h
 
 ---
 
-<a href="https://devpost.com/software/byteover2/">
+### Surveillance cameras *[2016]*
+
+<a href="https://ieeexplore.ieee.org/abstract/document/8470307/">
 <img src="https://github.com/ericktokuda/ericktokuda/raw/main/img/survcam_animation.gif" title="Surveillance camera in Brazil" width="640">
 </a>
 
 <!--<img src="https://github.com/ericktokuda/ericktokuda/raw/main/img/survcam_grid.png" title="Surveillance cameras in Brazil" width="640">-->
-*[2016]*
 If before the surveillance cameras were used primarily for traffic rules enforcement, nowadays they are part of the urban environment. It is fastly changing, but a decade ago the images generated by surveillance cameras were static, of low quality, of low sampling rate. Manually inspecting the data generated by these cameras is almost unfeasible and automatic methods are generally employed to help in this task. These methods, though, may be impacted by the varying illumination, weather, and noise. In this project, we improved the detection model with a self-supervised learning approach. The model feeds itself with new training samples to generate a more robust comptuer vision method. Our vision task was the object detection of cars. With this approach, we generated a method with much higher recall with the expense of a small loss of precision. This work was produced in collaboration with my colleagues from NYU and from USP.
 
 ---
