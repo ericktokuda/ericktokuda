@@ -27,6 +27,8 @@ Skills: Algorithms / Linux / Python / C
 
 ---
 
+### Epidemy contagion simulation
+
 <a href="https://github.com/tokudaek/epidspread/">
 <img src="https://github.com/ericktokuda/ericktokuda/raw/main/img/epidmodel_animation.gif" title="Simulation of the contagion process" width="640">
 </a>
@@ -34,6 +36,8 @@ Skills: Algorithms / Linux / Python / C
 *[2020]* The mathematical modelling of infectious diseases is an important piece in the epidemiology field. It allows one to study in principle an infinite number of epidemic scenarios in a safe way for the population. The Scottish researchers A. G. McKendrick and W. O. Kermack published in the 30's the foundation stone of the compartimental models research. They proposed a set of differential equations that allowed one to mathematically define the transmission stage, by determining the number of Succeptibles, Infected and Recovered. That gave risen to the famous SIR model, which is widely studied and extended in the current days. In this ABM, agents are allowed to move among vertices, but just agents in the same vertices may transmit or be infected. Additionaly, assume that these vertices are placed over a vector field with local minima and maxima of *attraction*. Agents move stochastically according to the vector field. How would the dynamics of the disease would change in such a scenario? That is que question that drives this research. This work has been done in collaboration with my colleagues from USP, in particular PCV Silva. Code is mostly in Python, with critical parts ported to C (Cython).
 
 ---
+
+### Hierachical agglomerative clustering
 
 <a href="https://github.com/tokudaek/hieclust/">
 <img src="https://github.com/ericktokuda/ericktokuda/raw/main/img/hieclust_teaser_vio.jpg" title="Multiple distributions" width="640">
@@ -61,7 +65,7 @@ Skills: Algorithms / Linux / Python / C
 ---
 
 <a href="https://github.com/VIDA-NYU/carmera-modelling">
-<img src="https://github.com/ericktokuda/ericktokuda/raw/main/img/peddens_heatmap420.png" title="Pedestrian detection" width="329">
+<img src="https://github.com/ericktokuda/ericktokuda/raw/main/img/peddens_heatmap420.png" title="Pedestrian detection" width="200">
 </a>
 
 *[2019]*
@@ -132,7 +136,7 @@ Coffee is included in the routine of millions of people worldwide. Understanding
 ---
 
 <a href="https://github.com/tokudaek/spaceinvaders">
-<img src="https://github.com/ericktokuda/ericktokuda/raw/main/img/game_animation.gif" title="Pseudo-space-invaders" width="640">
+<img src="https://github.com/ericktokuda/ericktokuda/raw/main/img/game_animation.gif" title="Pseudo-space-invaders" width="397">
 </a>
 
 *[2007]*
