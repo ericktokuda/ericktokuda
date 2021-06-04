@@ -59,39 +59,23 @@ Skills: Algorithms / Linux / Python / C
 
 
 ---
-2019
 
-{{< figure src="/images/peddens_heatmap420.png" alt="Missing image." position="center" style="border-radius: 8px;" caption="Pedestrian heatmap across 2016.">}}
+<a href="https://github.com/VIDA-NYU/carmera-modelling">
+<img src="https://github.com/ericktokuda/ericktokuda/raw/main/img/peddens_heatmap420.png" title="Pedestrian detection" width="640">
+</a>
 
-The distribution of pedestrians in the city is a valuable information for different activities, such as for business, urban planning and disasters control. For instance, one may want to understand why a few streets have very low densities of people comparing to the neighbour streets or, conversely, why apparently common strets have a peak on the flow of people in specific hours.
-
-The initial approaches consisted in manually counting the people passing through a given region. Despite accurate, it is a laborious task and unfeasiable in a large city-scale. With the increasing availability of images coming from static monitoring cameras, and with the advances in computer vision, this task can be done automatically. Monitoring cameras, however are limited to the locations they are installed.
-
-Considering the above limitations, [Carmera](https://www.carmera.com) provides images wigh spatial and temporal variation. Their fleets continuously travels across the city acquiring images. In a collaboration with this company, I had access to the more than 40M images captured across a year in the New York city. Such a large amount of data demanded smart procedures in terms of store, search, and processing. For instance, slight modifications in a SQL query resulted in dozens of hours of difference in processing.
-
-Another fundamental task concerns the counting of people. Fortunately, one of the more evident areas in machine learning is computer vision. We tested some of the available approaches and used a convnet with a residual network backbone.
-
-
-{{< youtube ngihdYfW5Ok >}}
-
-This work has been produced in collaboration with my colleagues from NYU, from [Carmera](https://www.carmera.com/about/) and from the University of Sao Paulo: Y Lockerman, G Ferreira, E Sorrelgreen, D Boyle, R Cesar-Jr and C Silva.
+*[2019]*
+The distribution of pedestrians in the city is a valuable information for different activities, such as for business, urban planning and disasters control. For instance, one may want to understand why a few streets have very low densities of people comparing to the neighbour streets or, conversely, why apparently common strets have a peak on the flow of people in specific hours.  The initial approaches consisted in manually counting the people passing through a given region. Despite accurate, it is a laborious task and unfeasiable in a large city-scale. With the increasing availability of images coming from static monitoring cameras, and with the advances in computer vision, this task can be done automatically. Monitoring cameras, however are limited to the locations they are installed. Considering the above limitations, [Carmera](https://www.carmera.com) provides images wigh spatial and temporal variation. Their fleets continuously travels across the city acquiring images. In a collaboration with this company, I had access to the more than 40M images captured across a year in the New York city. Such a large amount of data demanded smart procedures in terms of store, search, and processing. For instance, slight modifications in a SQL query resulted in dozens of hours of difference in processing. Another fundamental task concerns the counting of people. Fortunately, one of the more evident areas in machine learning is computer vision. We tested some of the available approaches and used a convnet with a residual network backbone. This work has been produced in collaboration with my colleagues from Bloomberg, from NYU, from [Carmera](https://www.carmera.com/about/) and from the USP.
 
 ---
-2018
 
-Weather affects our visual system and as such, it also impacts the imaging sensors. This has a strong implications for the vision systems of autonomous vehicles, for instance. For this reason, the degradation imposed by the weather are heavily studied by the computer vision/graphics community.
 
-{{< figure src="/images/derain_synthetic.png" alt="Missing image." position="center" style="border-radius: 4px;" caption="Original image and synthetically added rain.">}}
+<a href="https://github.com/lsy17096535/Single-Image-Deraining">
+<img src="https://github.com/ericktokuda/ericktokuda/raw/main/img/derain_gmm_idcgan_gray.png" title="De-raining" width="640">
+</a>
 
-In this project, we study how the rain affects the object detection task. We consider two scenarios: (a) images with synthetically generated rain and (b) real rain. The advantage of the former is that we can treat the problem as an image restoration task, with a ground-truth. Conversely, the latter exhibit the real changes caused by the rain, and not a simple model of it.
-
-{{< figure src="/images/derain_gmm_idcgan.png" alt="Missing image." position="center" style="border-radius: 4px;" caption="Input image and removal of rain by GMM and IDCGAN.">}}
-
-We tested different deraining methods and subsequently applied state-of-the-art object detection approaches. The results were counter-intuitive, despite deraining methods may improve the visual appearance of the images, it does not consistently improve the posterior object detection task.
-
-The source code is available [here](https://github.com/lsy17096535/Single-Image-Deraining).
-
-This work has been done in collaboration with my colleagues from Texas A\&M, the Chinese Academy of Sciences and from USP, S Li, IB Araujo, W Ren, Z Wang, R Hirata-Jr, R Cesar-Jr, J Zhang, X Guo, and X Cao.
+*[2018]*
+Weather affects our visual system and as such, it also impacts the imaging sensors. This has a strong implications for the vision systems of autonomous vehicles, for instance. For this reason, the degradation imposed by the weather are heavily studied by the computer vision/graphics community. In this project, we study how the rain affects the object detection task. We consider two scenarios: (a) images with synthetically generated rain and (b) real rain. The advantage of the former is that we can treat the problem as an image restoration task, with a ground-truth. Conversely, the latter exhibit the real changes caused by the rain, and not a simple model of it. We tested different deraining methods and subsequently applied state-of-the-art object detection approaches. The results were counter-intuitive, despite deraining methods may improve the visual appearance of the images, it does not consistently improve the posterior object detection task.  This work has been done in collaboration with my colleagues from U. Austin, from the Chinese Academy of Sciences and from USP.
 
 ---
 2017
