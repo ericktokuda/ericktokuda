@@ -47,25 +47,23 @@ Skills: Algorithms / Linux / Python / C
 <img src="https://github.com/ericktokuda/ericktokuda/raw/main/img/graffiti_teaser_ind.jpg" title="Tagging detection" width="640">
 </a>
 
-*[2019]* Tagging is present in most big cities and there is no knowledge about where they are primarily concentrated. Manually inspecting the regions with graffiti may be expensive. In this project I estimate the tagging distribution in a region using public images. Important to notice in this work we are not focused on paintings on the walls. For this task I used the Google Street View REST api to acquire the visual data. I concentrated in a city which is known for having lots of occurences of tagging - Sao Paulo, Brazil. I sampled the city region in a grid with four view orientations, which resulted in ~275,000 images. The results was used to create a map of tagging occurences in the analyzed city. I we recall the Broken Window theory, the tagging distribution can be used as an indicator of other features of the city. I matched the results with a socioeconomical indicator, the HDI and resulted in a resonably well correlation. This work has been produced in collaboration with my colleagues from NYU and from USP. I also supervised, with RM Cesar-Jr, an graduate final work from USP from FS Silva.
+*[2019]* Tagging is present in most big cities and there is no knowledge about where they are primarily concentrated. Manually inspecting the regions with graffiti may be expensive. In this project I estimate the tagging distribution in a region using public images. Important to notice in this work we are not focused on paintings on the walls. For this task I used the Google Street View REST api to acquire the visual data. I concentrated in a city which is known for having lots of occurences of tagging - Sao Paulo, Brazil. I sampled the city region in a grid with four view orientations, which resulted in ~275,000 images. The results was used to create a map of tagging occurences in the analyzed city. I we recall the Broken Window theory, the tagging distribution can be used as an indicator of other features of the city. I matched the results with a socioeconomical indicator, the HDI and resulted in a resonably well correlation. This work has been produced in collaboration with my colleagues from NYU and from USP. I also supervised, with RM Cesar-Jr, a graduate final work from FS Silva.
 
 ---
-2019
-
-One can say that we live in the sensor era. That is because we are surrounded all kinds of sensors, measuring a great variety of signals and generating even more types of data. When these sensors are somehow organized as a group, they are a called a sensor network. A special type of these systems consists in mobile units, the sensors, that are periodically sense the environment.
-
-The idea of using mobile sensors may be promissing, but isn't it dependent on the sensor accuracy? That is what we have studied in this project. In this work, we simulated mobile sensors moving in a closed region and sensins the nearby elements. However, the measurements carry erros, both systematic and random ones.
-
-
-We started using [LibPedSim](http://pedsim.silmaril.org/download/) in our implementation. It is a great framework for pedestrian simulation. See below an example of what I have implemented using the framework. We can imagine it was in a black friday!
 
 {{< youtube xuy1AGblv4A >}}
 
-After a while, considering our personalizations and the costs associated, we prefered to implement our own version of the simulation. We deployed a set of sensors that were able to count with potential error the pedestrians nearby. We compared it with the real count, given by the number of pedestrians deployed.
+<a href="https://github.com/tokudaek/graffutils/">
+<img src="https://github.com/ericktokuda/ericktokuda/raw/main/img/sensornet_teaser_pink.jpg" title="Sensor networks" width="640">
+</a>
 
-{{< figure src="/images/sensornet_simu.png" alt="Missing image." position="center" style="border-radius: 4px;" caption="Real and sensed count of pedestrians.">}}
+ <iframe width="420" height="315"
+src="https://www.youtube.com/embed/xuy1AGblv4A">
+</iframe>
 
-This work has been produced in collaboration with my colleagues from NYU, from Carmera and from the University of Sao Paulo, namely, Y Lockerman, GBA Ferreira, E Sorrelgreen, D Boyle, RM Cesar-Jr and CT Silva.
+*[2019]* One can say that we live in the sensor era. That is because we are surrounded all kinds of sensors, measuring a great variety of signals and generating even more types of data. When these sensors are somehow organized as a group, they are a called a sensor network. A special type of these systems consists in mobile units, the sensors, that are periodically sense the environment.  The idea of using mobile sensors may be promissing, but isn't it dependent on the sensor accuracy? That is what we have studied in this project. In this work, we simulated mobile sensors moving in a closed region and sensins the nearby elements. However, the measurements carry erros, both systematic and random ones.  We deployed a set of sensors that were able to count with potential error the pedestrians nearby. We compared it with the real count, given by the number of pedestrians deployed. This work has been produced in collaboration with my colleagues from Bloomberg, NYU, from Carmera and from USP.
+
+
 
 ---
 2019
