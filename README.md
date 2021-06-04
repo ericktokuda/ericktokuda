@@ -38,49 +38,48 @@ Here are some of my projects:
 
 ---
 
-### Hierachical agglomerative clustering
+### Hierachical agglomerative clustering [2020]
 
 <a href="https://github.com/tokudaek/hieclust/">
 <img src="https://github.com/ericktokuda/ericktokuda/raw/main/img/hieclust_teaser_vio.jpg" title="Multiple distributions" width="640">
 </a>
 
-*[2020]* Hierarchical clustering differ from regular clustering by providing the a hierarchy (order) in which the clusters are formed. It allows for instance that that the cut of groups be defined a posteriori.  In this project, I analyze classical hierarchical clustering algorithms, namely single, average, median, complete, centroid, and Ward's, with respect to the Type II error (false positives) in the problem of trying to separate unimodal and bimodal distributions. I created a synthetic dataset for this task, with points following uniform, gaussian, exponential and power-law distributions in 2d, 3d, ... , 10d.  The results showed that the single-linkage, often seen as a method leading to unreliable results due to the chaining effect, lead to one of the best results considering the error typeII. I thank my collaborators from USP and from UFSCAR for the joint work.
+Hierarchical clustering differ from regular clustering by providing the a hierarchy (order) in which the clusters are formed. It allows for instance that that the cut of groups be defined a posteriori.  In this project, I analyze classical hierarchical clustering algorithms, namely single, average, median, complete, centroid, and Ward's, with respect to the Type II error (false positives) in the problem of trying to separate unimodal and bimodal distributions. I created a synthetic dataset for this task, with points following uniform, gaussian, exponential and power-law distributions in 2d, 3d, ... , 10d.  The results showed that the single-linkage, often seen as a method leading to unreliable results due to the chaining effect, lead to one of the best results considering the error typeII. I thank my collaborators from USP and from UFSCAR for the joint work.
 
 ---
 
-### Tagging detection
+#### Tagging detection (2019)
 
 <a href="https://github.com/tokudaek/graffutils/">
 <img src="https://github.com/ericktokuda/ericktokuda/raw/main/img/graffiti_teaser_ind.jpg" title="Tagging detection" width="640">
 </a>
 
-*[2019]* Tagging is present in most big cities and there is no knowledge about where they are primarily concentrated. Manually inspecting the regions with graffiti may be expensive. In this project I estimate the tagging distribution in a region using public images. Important to notice in this work we are not focused on paintings on the walls. For this task I used the Google Street View REST api to acquire the visual data. I concentrated in a city which is known for having lots of occurences of tagging - Sao Paulo, Brazil. I sampled the city region in a grid with four view orientations, which resulted in ~275,000 images. The results was used to create a map of tagging occurences in the analyzed city. I we recall the Broken Window theory, the tagging distribution can be used as an indicator of other features of the city. I matched the results with a socioeconomical indicator, the HDI and resulted in a resonably well correlation. This work has been produced in collaboration with my colleagues from NYU and from USP. I also supervised, with RM Cesar-Jr, a graduate final work from FS Silva.
+Tagging is present in most big cities and there is no knowledge about where they are primarily concentrated. Manually inspecting the regions with graffiti may be expensive. In this project I estimate the tagging distribution in a region using public images. Important to notice in this work we are not focused on paintings on the walls. For this task I used the Google Street View REST api to acquire the visual data. I concentrated in a city which is known for having lots of occurences of tagging - Sao Paulo, Brazil. I sampled the city region in a grid with four view orientations, which resulted in ~275,000 images. The results was used to create a map of tagging occurences in the analyzed city. I we recall the Broken Window theory, the tagging distribution can be used as an indicator of other features of the city. I matched the results with a socioeconomical indicator, the HDI and resulted in a resonably well correlation. This work has been produced in collaboration with my colleagues from NYU and from USP. I also supervised, with RM Cesar-Jr, a graduate final work from FS Silva.
 
 ---
 
-### Sensor networks
+#### Sensor networks (2019)
 
 <a href="https://youtu.be/ngihdYfW5Ok">
 <img src="https://github.com/ericktokuda/ericktokuda/raw/main/img/sensornet_youtube.jpg" title="Sensor networks" width="640">
 </a>
 
-*[2019]* One can say that we live in the sensor era. That is because we are surrounded all kinds of sensors, measuring a great variety of signals and generating even more types of data. When these sensors are somehow organized as a group, they are a called a sensor network. A special type of these systems consists in mobile units, the sensors, that are periodically sense the environment.  The idea of using mobile sensors may be promissing, but isn't it dependent on the sensor accuracy? That is what we have studied in this project. In this work, we simulated mobile sensors moving in a closed region and sensins the nearby elements. However, the measurements carry erros, both systematic and random ones.  We deployed a set of sensors that were able to count with potential error the pedestrians nearby. We compared it with the real count, given by the number of pedestrians deployed. This work has been produced in collaboration with my colleagues from Bloomberg, NYU, from Carmera and from USP.
+One can say that we live in the sensor era. That is because we are surrounded all kinds of sensors, measuring a great variety of signals and generating even more types of data. When these sensors are somehow organized as a group, they are a called a sensor network. A special type of these systems consists in mobile units, the sensors, that are periodically sense the environment.  The idea of using mobile sensors may be promissing, but isn't it dependent on the sensor accuracy? That is what we have studied in this project. In this work, we simulated mobile sensors moving in a closed region and sensins the nearby elements. However, the measurements carry erros, both systematic and random ones.  We deployed a set of sensors that were able to count with potential error the pedestrians nearby. We compared it with the real count, given by the number of pedestrians deployed. This work has been produced in collaboration with my colleagues from Bloomberg, NYU, from Carmera and from USP.
 
 
 ---
 
-### Pedestrian detection
+#### Pedestrian detection (2019)
 
 <a href="https://github.com/VIDA-NYU/carmera-modelling">
 <img src="https://github.com/ericktokuda/ericktokuda/raw/main/img/peddens_heatmap420.png" title="Pedestrian detection" width="250">
 </a>
 
-*[2019]*
 The distribution of pedestrians in the city is a valuable information for different activities, such as for business, urban planning and disasters control. For instance, one may want to understand why a few streets have very low densities of people comparing to the neighbour streets or, conversely, why apparently common strets have a peak on the flow of people in specific hours.  The initial approaches consisted in manually counting the people passing through a given region. Despite accurate, it is a laborious task and unfeasiable in a large city-scale. With the increasing availability of images coming from static monitoring cameras, and with the advances in computer vision, this task can be done automatically. Monitoring cameras, however are limited to the locations they are installed. Considering the above limitations, [Carmera](https://www.carmera.com) provides images wigh spatial and temporal variation. Their fleets continuously travels across the city acquiring images. In a collaboration with this company, I had access to the more than 40M images captured across a year in the New York city. Such a large amount of data demanded smart procedures in terms of store, search, and processing. For instance, slight modifications in a SQL query resulted in dozens of hours of difference in processing. Another fundamental task concerns the counting of people. Fortunately, one of the more evident areas in machine learning is computer vision. We tested some of the available approaches and used a convnet with a residual network backbone. This work has been produced in collaboration with my colleagues from Bloomberg, from NYU, from [Carmera](https://www.carmera.com/about/) and from the USP.
 
 ---
 
-### *[2018]* De-raining
+#### De-raining (2018)
 
 <a href="https://github.com/lsy17096535/Single-Image-Deraining">
 <img src="https://github.com/ericktokuda/ericktokuda/raw/main/img/derain_gmm_idcgan_gray.jpg" title="De-raining" width="640">
@@ -90,7 +89,7 @@ Weather affects our visual system and as such, it also impacts the imaging senso
 
 ---
 
-### Cloud services *[2017]*
+#### Cloud services (2017)
 
 <a href="https://devpost.com/software/byteover2/">
 <img src="https://github.com/ericktokuda/ericktokuda/raw/main/img/cloudserv_teaser_red.jpg" title="Cloud services" width="640">
