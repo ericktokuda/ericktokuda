@@ -51,18 +51,11 @@ Skills: Algorithms / Linux / Python / C
 
 ---
 
-{{< youtube xuy1AGblv4A >}}
-
-<a href="https://github.com/tokudaek/graffutils/">
-<img src="https://github.com/ericktokuda/ericktokuda/raw/main/img/sensornet_teaser_pink.jpg" title="Sensor networks" width="640">
+<a href="https://youtu.be/ngihdYfW5Ok">
+<img src="https://github.com/ericktokuda/ericktokuda/raw/main/img/sensornet_youtube.jpg" title="Sensor networks" width="640">
 </a>
 
- <iframe width="420" height="315"
-src="https://www.youtube.com/embed/xuy1AGblv4A">
-</iframe>
-
 *[2019]* One can say that we live in the sensor era. That is because we are surrounded all kinds of sensors, measuring a great variety of signals and generating even more types of data. When these sensors are somehow organized as a group, they are a called a sensor network. A special type of these systems consists in mobile units, the sensors, that are periodically sense the environment.  The idea of using mobile sensors may be promissing, but isn't it dependent on the sensor accuracy? That is what we have studied in this project. In this work, we simulated mobile sensors moving in a closed region and sensins the nearby elements. However, the measurements carry erros, both systematic and random ones.  We deployed a set of sensors that were able to count with potential error the pedestrians nearby. We compared it with the real count, given by the number of pedestrians deployed. This work has been produced in collaboration with my colleagues from Bloomberg, NYU, from Carmera and from USP.
-
 
 
 ---
