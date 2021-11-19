@@ -152,3 +152,6 @@ Coffee is included in the routine of millions of people worldwide. Understanding
 
 Space Invaders is a 70's game developed by Taito, in Japan, for Arcade and for Atari. You are the commander of spaceship responsible to protect your planet by destroyoing the invading alliens. In my programming 101 course, back in *2008*, me and a colleague, Pedro de Andrade, developed our version inspired in this classical game. We had no notion of game programming and most of the excelent tools for game development did not exist at the time, so we had to learn lots of concepts in the process, such as physics, (basic) AI and design. For instance, one the main functions regards the calculation of the intersection between pairs of objects. It was used to calculate the collisions among our ship, the enemies, the shields, and the shots. The code is far from following all the good rules of programming, given that we were just in our first year and that we developed it in 4 days in a row. The code is composed of almost 1,000 lines in a single file, with no OO and with many global variables. The code is entirely writen in C, with the OpenGL and the GLut libraries. The result can be seen above. I know, it is not quite the same as the original, but we can definitely have some fun with it.
 
+---
+Eric K. Tokuda
+
