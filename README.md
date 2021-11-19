@@ -4,15 +4,14 @@
 </a>
 </p>
 
-## Passionate about algorithms
-
+## Eric K. Tokuda
 Skills: Algorithms / Linux / Python / C
 
 - I’m currently working on the characterization of cities through street networks. 
 - I’m currently learning algorithm optimization and Pytorch. 
 - I’m looking to collaborate on computer vision and network science projects. 
 - I’m looking for help with the Chinese language. 
-- How to reach me: [LinkedIn](https://www.linkedin.com/in/https://www.linkedin.com/in/tokudaek/ "LinkedIn")  
+- How to reach me: [LinkedIn](https://www.linkedin.com/in/tokudaek/ "LinkedIn")  
 
 Here are some of my projects:
 
